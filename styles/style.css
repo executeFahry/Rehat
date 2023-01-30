@@ -18,7 +18,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  /* min-height: 3500px; */
 }
 
 /* --------- Navbar Start --------- */
@@ -89,7 +88,6 @@ body {
 /* --------- Navbar End --------- */
 
 /* --------- Hero Section Start --------- */
-
 .hero {
   min-height: 100vh;
   display: flex;
@@ -313,7 +311,7 @@ body {
 
 /* --------- Menu Section End --------- */
 
-/* Contact Section Start */
+/* --------- Contact Section Start --------- */
 .contact .row {
   display: flex;
   margin-top: 3rem;
@@ -366,9 +364,9 @@ body {
   border-radius: 0.15rem;
 }
 
-/* Contact Section End */
+/* --------- Contact Section End --------- */
 
-/* Footer Section Start */
+/* --------- Footer Section Start --------- */
 footer {
   background-color: #222;
   width: 100%;
@@ -426,9 +424,9 @@ footer .copyright {
   color: #7a7a7a;
 }
 
-/* Footer Section End */
+/* --------- Footer Section End --------- */
 
-/* Media Queries */
+/* --------- Media Queries --------- */
 /* Laptop */
 @media (max-width: 1366px) {
   html {
@@ -442,10 +440,7 @@ footer .copyright {
     font-size: 65.5%;
   }
 
-  #hamburger-menu {
-    display: inline-block;
-  }
-
+  /* --------- Navbar Start --------- */
   .navbar .navbar-nav {
     position: absolute;
     top: 100%;
@@ -476,6 +471,13 @@ footer .copyright {
     transform: scaleX(0.2);
   }
 
+  #hamburger-menu {
+    display: inline-block;
+  }
+
+  /* --------- Navbar End --------- */
+
+  /* --------- About Section Start --------- */
   .about .row {
     flex-wrap: wrap;
   }
@@ -499,6 +501,9 @@ footer .copyright {
     font-size: 1.6rem;
   }
 
+  /* --------- About Section End --------- */
+
+  /* --------- Contact Section Start --------- */
   .contact .row {
     flex-wrap: wrap;
   }
@@ -510,6 +515,7 @@ footer .copyright {
   .contact .row form {
     padding-top: 1rem;
   }
+  /* --------- Contact Section End --------- */
 }
 
 /* Mobile Phone */
@@ -529,6 +535,7 @@ footer .copyright {
     align-items: center;
   }
 
+  /* Footer */
   footer .side-logo {
     margin: 0;
   }
